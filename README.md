@@ -1,4 +1,4 @@
-# tecnocasa
+# Práctica 1
 
 Autora: Fanfan Yang (no hay más miembros del grupo)
 
