@@ -1,4 +1,4 @@
-# Scrapy settings for tecnocasa project
+# Scrapy settings for source project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'tecnocasa'
+BOT_NAME = 'source'
 
-SPIDER_MODULES = ['tecnocasa.spiders']
-NEWSPIDER_MODULE = 'tecnocasa.spiders'
+SPIDER_MODULES = ['source.spiders']
+NEWSPIDER_MODULE = 'source.spiders'
 
 # for Chrome driver
 
@@ -23,7 +23,7 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tecnocasa (+http://www.yourdomain.com)'
+#USER_AGENT = 'source (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -54,13 +54,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'tecnocasa.middlewares.TecnocasaSpiderMiddleware': 543,
+#    'source.middlewares.TecnocasaSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'tecnocasa.middlewares.TecnocasaDownloaderMiddleware': 543,
+#    'source.middlewares.TecnocasaDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -72,7 +72,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'tecnocasa.pipelines.TecnocasaPipeline': 300,
+#    'source.pipelines.TecnocasaPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

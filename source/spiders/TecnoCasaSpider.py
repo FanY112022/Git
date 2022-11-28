@@ -2,11 +2,11 @@
 
 import scrapy
 from scrapy_selenium import SeleniumRequest
-from tecnocasa.items import Tecnocasa
+from source.items import Tecnocasa
 
 
 class TecnoCasaSpider(scrapy.Spider):
-    name = 'tecnocasa'
+    name = 'source'
 
     def start_requests(self):
         url = 'https://www.tecnocasa.es/venta/inmuebles/comunidad-de-madrid/madrid.html'
